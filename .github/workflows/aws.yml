@@ -26,3 +26,4 @@ jobs:
             yarn/npm build
             yarn/npm i serve
             serve -p 3000 build/
+            
