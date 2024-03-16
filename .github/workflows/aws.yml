@@ -4,8 +4,11 @@ name: Push-to-EC2
 on:
   push:
     branches:
-      - master
-
+      - main
+  pull_request:
+    branches:
+      - main
+      
 jobs:
   deploy:
     name: Deploy to EC2 on master branch push
